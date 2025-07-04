@@ -1,0 +1,3 @@
+<view class="content data-v-55f60af8">
+    <uv-parse bind:__l="__l" class="data-v-55f60af8" uI="55f60af8-0" uP="{{a}}" wx:if="{{a}}"></uv-parse>
+</view>

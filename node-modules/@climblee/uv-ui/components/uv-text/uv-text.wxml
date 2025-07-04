@@ -1,0 +1,12 @@
+<view bindtap="{{I}}" class="{{['uv-text','data-v-bf46ccf4']}}" style="{{'margin:'+G+';'+'justify-content:'+H}}" wx:if="{{a}}">
+    <text class="{{['data-v-bf46ccf4','uv-text__price',c]}}" style="{{d}}" wx:if="{{b}}">￥</text>
+    <view class="uv-text__prefix-icon data-v-bf46ccf4" wx:if="{{e}}">
+        <uv-icon bind:__l="__l" class="data-v-bf46ccf4" uI="bf46ccf4-0" uP="{{f}}" wx:if="{{f}}"></uv-icon>
+    </view>
+    <uv-link bind:__l="__l" class="data-v-bf46ccf4" uI="bf46ccf4-1" uP="{{h}}" wx:if="{{g}}"></uv-link>
+    <button appParameter="{{z}}" bindcontact="{{n}}" binderror="{{p}}" bindgetphonenumber="{{o}}" bindgetuserinfo="{{m}}" bindlaunchapp="{{q}}" bindopensetting="{{r}}" class="uv-reset-button uv-text__value data-v-bf46ccf4" lang="{{s}}" openType="{{l}}" sendMessageImg="{{x}}" sendMessagePath="{{w}}" sendMessageTitle="{{v}}" sessionFrom="{{t}}" showMessageCard="{{y}}" style="{{k}}" wx:elif="{{i}}">{{j}}</button>
+    <text class="{{['uv-text__value','data-v-bf46ccf4',C,D]}}" style="{{B}}" wx:else>{{A}}</text>
+    <view class="uv-text__suffix-icon data-v-bf46ccf4" wx:if="{{E}}">
+        <uv-icon bind:__l="__l" class="data-v-bf46ccf4" uI="bf46ccf4-2" uP="{{F}}" wx:if="{{F}}"></uv-icon>
+    </view>
+</view>

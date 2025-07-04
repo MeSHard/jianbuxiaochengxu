@@ -1,0 +1,33 @@
+<uv-popup bind:__l="__l" class="r data-v-3a94fe31" uI="3a94fe31-0" uP="{{q}}" uR="popup" uS="{{['d']}}" wx:if="{{q}}">
+    <view class="popup data-v-3a94fe31">
+        <view class="calendar data-v-3a94fe31">
+            <image class="bg data-v-3a94fe31" mode="" src="{{a}}"></image>
+            <view class="box data-v-3a94fe31">
+                <view class="top data-v-3a94fe31">
+                    <image bindtap="{{b}}" class="year data-v-3a94fe31" mode="" src="{{c}}"></image>
+                    <image bindtap="{{d}}" class="month data-v-3a94fe31" mode="" src="{{e}}"></image>
+                    <text class="yearmonth data-v-3a94fe31">{{f}}-{{g}}</text>
+                    <image bindtap="{{h}}" class="month data-v-3a94fe31" mode="" src="{{i}}"></image>
+                    <image bindtap="{{j}}" class="year data-v-3a94fe31" mode="" src="{{k}}"></image>
+                </view>
+                <view class="week data-v-3a94fe31">
+                    <view class="item data-v-3a94fe31" wx:for="{{l}}">{{item.a}}</view>
+                </view>
+                <view class="line data-v-3a94fe31"></view>
+                <view class="row data-v-3a94fe31" wx:for="{{m}}" wx:for-item="maxitem">
+                    <view class="item data-v-3a94fe31" wx:for="{{maxitem.a}}">
+                        <view class="day data-v-3a94fe31">{{item.a}}</view>
+                        <view class="poa data-v-3a94fe31">
+                            <image class="success data-v-3a94fe31" mode="" src="{{item.c}}" wx:if="{{item.b}}"></image>
+                            <view class="step data-v-3a94fe31">{{item.d}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="desc data-v-3a94fe31">注：每天自动获取微信步数同步到小程序</view>
+        </view>
+        <view bindtap="{{o}}" class="close data-v-3a94fe31">
+            <uv-icon bind:__l="__l" class="data-v-3a94fe31" uI="3a94fe31-1,3a94fe31-0" uP="{{n}}" wx:if="{{n}}"></uv-icon>
+        </view>
+    </view>
+</uv-popup>

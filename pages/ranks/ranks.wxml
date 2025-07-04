@@ -1,0 +1,127 @@
+<view class="content data-v-716fbf2c">
+  <image class="rankimg data-v-716fbf2c" mode="" src="{{a}}"></image>
+  <view class="tabs data-v-716fbf2c">
+    
+
+      <view style="display: flex;">
+        <view bindtap="{{b}}" class="{{['item','data-v-716fbf2c',c&&'active']}}">
+          区县综合排名
+        </view>
+        <view wx:if="{{j}}" style="margin-left: 4px;">
+          <picker bindchange="{{bindPickerChange}}" value="{{index}}" range="{{array}}">
+            <view class="picker">
+              {{array[index]}}
+            </view>
+          </picker>
+        </view>
+      </view>
+    
+    
+    <view bindtap="{{d}}" class="{{['item','data-v-716fbf2c',e&&'active']}}">个人步数排名</view>
+    <view bindtap="{{f}}" class="{{['item','data-v-716fbf2c',g&&'active']}}">学习排名</view>
+  </view>
+  <view class="titlebox data-v-716fbf2c">
+    <view class="rank data-v-716fbf2c">排名</view>
+    <view class="avatar data-v-716fbf2c" wx:if="{{h}}">头像</view>
+    <view class="name data-v-716fbf2c" wx:if="{{i}}">姓名</view>
+    
+    <view class="address data-v-716fbf2c" wx:if="{{j && indexA}}">区县</view>
+    <view class="address data-v-716fbf2c" wx:if="{{j && indexB}}">单位</view>
+    <view class="address data-v-716fbf2c" wx:if="{{j && indexC}}">队伍</view>
+    <view class="address data-v-716fbf2c" wx:if="{{j && indexD}}">个人</view>
+
+    <view class="right data-v-716fbf2c">
+      <view class="integral data-v-716fbf2c" wx:if="{{k}}">
+     
+        <view class="quxian" wx:if="{{indexA}}">
+          <view>参数人数</view>
+          <view>日人均步数</view>
+          <view>总积分</view>
+        </view>
+
+        <view class="quxian" wx:if="{{indexB || indexC || indexD}}">
+          <view>全市</view>
+          <view>本县</view>
+          <view>人日均步数</view>
+          <view>人均总积分</view>
+        </view>
+
+      </view>
+      <view class="integral data-v-716fbf2c" wx:if="{{l}}">步数</view>
+      <view class="integral data-v-716fbf2c" wx:if="{{m}}">分数</view>
+    </view>
+  </view>
+  <view class="topthree data-v-716fbf2c">
+    <view class="{{['item','data-v-716fbf2c',item.i&&'active',item.j&&'active']}}" wx:for="{{n}}">
+      <view class="topthreerankbox data-v-716fbf2c">
+        <image class="topthreerank data-v-716fbf2c" mode="" src="{{item.a}}"></image>
+      </view>
+      <view class="avatar data-v-716fbf2c" wx:if="{{o}}">
+        <uv-avatar bind:__l="__l" class="data-v-716fbf2c" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></uv-avatar>
+      </view>
+      <view class="name uv-line-1 data-v-716fbf2c" wx:if="{{p}}">{{item.d}}</view>
+        <!-- 区县名称，单位名称，队伍名称 -->
+      <view class="address data-v-716fbf2c" wx:if="{{q}}">{{item.e}}</view>
+      <view class="right data-v-716fbf2c">
+
+<!-- 区县排名 -->
+        <view class="integral data-v-716fbf2c" wx:if="{{r}}">
+
+          <view class="quxian" wx:if="{{indexA}}">
+            <view>{{item.id}}</view>
+            <view>{{item.id}}</view>
+            <view>{{item.id}}</view>
+          </view>
+
+          <view class="quxian" wx:if="{{indexB || indexC || indexD}}">
+            <view>{{item.id}}</view>
+            <view>{{item.id}}</view>
+            <view>{{item.id}}</view>
+            <view>{{item.id}}</view>
+          </view>
+        </view>
+
+        <view class="integral data-v-716fbf2c" wx:if="{{s}}">{{item.g}}</view>
+        <view class="integral data-v-716fbf2c" wx:if="{{t}}">{{item.h}}</view>
+      </view>
+    </view>
+  </view>
+  <scroll-view bindscrolltolower="{{E}}" class="allrank data-v-716fbf2c" scrollY="true">
+    <view class="list data-v-716fbf2c">
+      <view class="{{['item','data-v-716fbf2c',item.i&&'active',item.j&&'active']}}" wx:for="{{v}}">
+        <view class="rank data-v-716fbf2c">{{item.a}}</view>
+        <view class="avatar data-v-716fbf2c" wx:if="{{w}}">
+          <uv-avatar bind:__l="__l" class="data-v-716fbf2c" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></uv-avatar>
+        </view>
+        <view class="name uv-line-1 data-v-716fbf2c" wx:if="{{x}}">{{item.d}}</view>
+        <!-- 区县名称，单位名称，队伍名称 -->
+        <view class="address data-v-716fbf2c" wx:if="{{y}}">{{item.e}}</view>
+        <view class="right data-v-716fbf2c">
+
+
+
+        <!-- 区县排名 -->
+          <view class="integral data-v-716fbf2c" wx:if="{{z}}">
+
+            <view class="quxian" wx:if="{{indexA}}">
+              <view>{{item.id}}</view>
+              <view>{{item.id}}</view>
+              <view>{{item.id}}</view>
+            </view>
+
+            <view class="quxian" wx:if="{{indexB || indexC || indexD}}">
+              <view>{{item.id}}</view>
+              <view>{{item.id}}</view>
+              <view>{{item.id}}</view>
+              <view>{{item.id}}</view>
+            </view>
+          </view>
+          <view class="integral data-v-716fbf2c" wx:if="{{A}}">{{item.g}}</view>
+          <view class="integral data-v-716fbf2c" wx:if="{{B}}">{{item.h}}</view>
+        </view>
+      </view>
+    </view>
+    <uv-load-more bind:__l="__l" class="data-v-716fbf2c" uI="716fbf2c-2" uP="{{D}}" wx:if="{{C}}"></uv-load-more>
+    <uv-empty bind:__l="__l" class="data-v-716fbf2c" uI="716fbf2c-3" wx:else></uv-empty>
+  </scroll-view>
+</view>

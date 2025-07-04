@@ -1,0 +1,35 @@
+<view class="content data-v-127b3c96">
+    <view class="tabs data-v-127b3c96">
+        <view bindtap="{{a}}" class="{{['item','data-v-127b3c96',b&&'active']}}">证书</view>
+        <view bindtap="{{c}}" class="{{['item','data-v-127b3c96',d&&'active']}}">徽章墙</view>
+    </view>
+    <view class="active1 data-v-127b3c96" wx:if="{{e}}">
+        <view class="card data-v-127b3c96">
+            <image class="bg data-v-127b3c96" mode="" src="{{f}}"></image>
+            <view class="userinfo data-v-127b3c96">
+                <view class="avatar data-v-127b3c96">
+                    <uv-avatar bind:__l="__l" class="data-v-127b3c96" uI="127b3c96-0" uP="{{g}}" wx:if="{{g}}"></uv-avatar>
+                </view>
+                <view class="name data-v-127b3c96">{{h}}</view>
+            </view>
+            <view class="texts data-v-127b3c96">
+                <text class="texts1 data-v-127b3c96" >{{stepNumber>10000 ? '恭喜你成功打卡今日万步' : '今日未达标'}}</text>
+                <text class="texts1 data-v-127b3c96" style="margin-top: 24rpx;">已累计健走{{sumStepNumber}}步数</text>
+                <text class="texts1 data-v-127b3c96" style="margin-top: 10rpx;">累计打卡达标{{day}}天</text>
+                <text class="texts2 data-v-127b3c96">山城步道，用步数解锁精彩</text>
+            </view>
+        </view>
+        <button bindtap="{{i}}" class="uv-reset-button btn data-v-127b3c96">下载证书</button>
+    </view>
+    <view class="active2 data-v-127b3c96" wx:if="{{j}}">
+        <view class="{{['item','data-v-127b3c96',item.e&&'active']}}" wx:for="{{k}}">
+            <image class="itembg data-v-127b3c96" mode="" src="{{item.a}}"></image>
+            <view class="text data-v-127b3c96">{{item.b}}</view>
+            <view class="rightbot data-v-127b3c96">
+                <image class="rightbotbg data-v-127b3c96" mode="" src="{{l}}"></image>
+                <image class="rightbotimg data-v-127b3c96" mode="" src="{{item.d}}" wx:if="{{item.c}}"></image>
+            </view>
+        </view>
+    </view>
+    <tui-poster bind:__l="__l" bindready="{{n}}" class="r data-v-127b3c96" uI="127b3c96-1" uP="{{o}}" uR="poster" wx:if="{{o}}"></tui-poster>
+</view>

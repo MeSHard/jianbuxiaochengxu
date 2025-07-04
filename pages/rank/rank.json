@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "排行榜",
+    "navigationBarBackgroundColor": "#E6FAF0",
+    "usingComponents": {
+        "uv-avatar": "../../node-modules/@climblee/uv-ui/components/uv-avatar/uv-avatar",
+        "uv-load-more": "../../node-modules/@climblee/uv-ui/components/uv-load-more/uv-load-more",
+        "uv-empty": "../../node-modules/@climblee/uv-ui/components/uv-empty/uv-empty"
+    }
+}

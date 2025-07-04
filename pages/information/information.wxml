@@ -1,0 +1,127 @@
+<view class="content data-v-17c83bce">
+    <view class="item data-v-17c83bce">
+        <text class="text data-v-17c83bce">姓名</text>
+        <view class="inputbox data-v-17c83bce">
+            <input bindinput="{{b}}" class="input data-v-17c83bce" placeholder="请输入姓名" type="text" value="{{a}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce">
+        <text class="text data-v-17c83bce">手机号</text>
+        <view class="inputbox data-v-17c83bce">
+            <input bindinput="{{d}}" class="input data-v-17c83bce" placeholder="请输入手机号" maxlength="11" type="number" value="{{c}}"></input>
+        </view>
+    </view>
+    
+    <view class="item data-v-17c83bce" >
+        <text class="text data-v-17c83bce">选择所属区县</text>
+        <view bindtap="{{h}}" class="inputbox data-v-17c83bce" >
+            <input  bindinput="{{f}}" disabled="{{true}}" class="input data-v-17c83bce" placeholder="请选择所属区县" type="text" value="{{e}}"></input>
+            <uv-icon bind:__l="__l" class="data-v-17c83bce" uI="17c83bce-0" uP="{{g}}" wx:if="{{g}}"></uv-icon>
+        </view>
+
+        <!-- wx:if="{{!aa}}" -->
+        <!-- <view  class="inputbox data-v-17c83bce" wx:else>
+            <input   class="input data-v-17c83bce" disabled="{{true}}" type="text" value="{{e}}"></input>
+            <uv-icon bind:__l="__l" class="data-v-17c83bce" uI="17c83bce-0" uP="{{g}}" wx:if="{{g}}"></uv-icon>
+        </view> -->
+    </view>
+    
+   
+    <view class="item data-v-17c83bce">
+        <text class="text data-v-17c83bce">选择自己的队伍名</text>
+
+        <view bindtap="{{hh}}" class="inputbox data-v-17c83bce" >
+          
+            <input  bindinput="{{j}}" disabled="{{true}}" class="input data-v-17c83bce" placeholder="请选择自己的队伍名" type="text" value="{{i}}"></input>
+            <uv-icon bind:__l="__l" class="data-v-17c83bce" uI="17c83bce-0" uP="{{gg}}" wx:if="{{gg}}"></uv-icon>
+        </view>
+
+        <!-- wx:if="{{!aa}}"
+        <view class="inputbox data-v-17c83bce" wx:else>
+            <input disabled="{{true}}" bindinput="{{j}}" class="input data-v-17c83bce" placeholder="请填写自己的单位" type="text" value="{{i}}"></input>
+        </view> -->
+
+    </view>
+
+    <view  class="item data-v-17c83bce" style="color: #3c9cff;font-size:14px;" wx:if="{{aa}}"  bindtap="{{open}}">
+      {{!isopen ? '展开积分信息' : '收起积分信息'}}
+    </view>
+
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">健走积分</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.sportNumber}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">科普积分</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.popularizationNumber}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">答题积分</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.answerNumber}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">景点打卡积分</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.clockNumber}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">总积分</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.integralNumber}}"></input>
+        </view>
+    </view>
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">当日步数</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.stepNumber}}"></input>
+        </view>
+    </view>
+
+    <view class="item data-v-17c83bce" wx:if="{{isopen}}">
+        <text class="text data-v-17c83bce">总步数</text>
+        <view class="inputbox data-v-17c83bce">
+            <input disabled="{{true}}" class="input data-v-17c83bce"  type="text" value="{{userinfo.sumStepNumber}}"></input>
+        </view>
+    </view>
+
+
+
+
+
+    <view bindtap="{{n}}" class="checkbox data-v-17c83bce">
+        <view class="{{['checked','data-v-17c83bce',l&&'active']}}">
+            <image class="checkimg data-v-17c83bce" mode="" src="{{k}}"></image>
+        </view>
+        <view class="check data-v-17c83bce">我已阅读并同意<text catchtap="{{m}}" class="protocol data-v-17c83bce">《知情书须知》</text>
+        </view>
+    </view>
+    <button bindtap="{{o}}" class="uv-reset-button submit data-v-17c83bce">{{aa ? "确定修改" : "进入系统"}}</button>
+</view>
+
+
+
+
+
+
+<uv-popup bind:__l="__l" class="r data-v-17c83bce" uI="17c83bce-1" uP="{{w}}" uR="popup" uS="{{['d']}}" wx:if="{{w}}">
+    <view class="popup data-v-17c83bce">
+        <picker-view bindchange="{{r}}" class="picker-view data-v-17c83bce" indicatorStyle="height: 50px;borderTop:2rpx solid #E3E3E3;borderBottom:2rpx solid #E3E3E3" value="{{q}}">
+            <picker-view-column class="data-v-17c83bce">
+                <view class="date data-v-17c83bce" wx:for="{{p}}">{{item.a}}</view>
+            </picker-view-column>
+        </picker-view>
+        <view class="btns data-v-17c83bce">
+            <button bindtap="{{s}}" class="uv-reset-button cancel data-v-17c83bce">取消</button>
+            <button bindtap="{{t}}" class="uv-reset-button confirm data-v-17c83bce">确定</button>
+        </view>
+    </view>
+</uv-popup>
+
+

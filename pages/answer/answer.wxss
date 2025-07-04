@@ -1,0 +1,167 @@
+.content.data-v-d554a45d {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+}
+
+.content .bg.data-v-d554a45d {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .userinfo.data-v-d554a45d {
+    height: 412rpx;
+    margin: 70rpx auto 0;
+    position: relative;
+    width: 690rpx;
+}
+
+.content .userinfo .userinfobg.data-v-d554a45d {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .userinfo .infobox.data-v-d554a45d {
+    align-items: center;
+    display: flex;
+    left: 39rpx;
+    position: relative;
+    top: 30rpx;
+}
+
+.content .userinfo .infobox .avatar.data-v-d554a45d {
+    align-items: center;
+    border: 2rpx solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    height: 115rpx;
+    justify-content: center;
+    width: 115rpx;
+}
+
+.content .userinfo .infobox .name.data-v-d554a45d {
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 700;
+    line-height: 30rpx;
+    margin-left: 24rpx;
+}
+
+.content .card.data-v-d554a45d {
+    background: #fff;
+    border-radius: 32rpx;
+    margin: -236rpx auto 0;
+    overflow: hidden;
+    position: relative;
+    width: 695rpx;
+}
+
+.content .card .title.data-v-d554a45d {
+    height: 35rpx;
+    margin: 38rpx auto;
+    position: relative;
+    width: 353rpx;
+}
+
+.content .card .title .titlebg.data-v-d554a45d {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .card .title .titletext.data-v-d554a45d {
+    color: #3c3d3f;
+    font-size: 35rpx;
+    font-weight: 700;
+    line-height: 35rpx;
+    position: relative;
+    text-align: center;
+}
+
+.content .card .mincardbox.data-v-d554a45d {
+    height: calc(100vh - 430rpx);
+    margin-bottom: 20rpx;
+    overflow: hidden;
+}
+
+.content .card .mincardbox .item .mincard.data-v-d554a45d {
+    align-items: center;
+    background: #d6ffe6;
+    border-radius: 23rpx;
+    box-sizing: border-box;
+    display: flex;
+    height: 200rpx;
+    margin: 0 auto;
+    padding: 0 19rpx 0 16rpx;
+    width: 627rpx;
+}
+
+.content .card .mincardbox .item .mincard .imagebox.data-v-d554a45d {
+    align-items: center;
+    background: #bcefd0;
+    border: 2rpx solid #fff;
+    border-radius: 12rpx;
+    box-sizing: border-box;
+    display: flex;
+    height: 136rpx;
+    justify-content: center;
+    width: 134rpx;
+}
+
+.content .card .mincardbox .item .mincard .imagebox .image.data-v-d554a45d {
+    height: 97rpx;
+    width: 96rpx;
+}
+
+.content .card .mincardbox .item .mincard .center.data-v-d554a45d {
+    flex: 1;
+    margin: 0 18rpx;
+}
+
+.content .card .mincardbox .item .mincard .center .text.data-v-d554a45d {
+    color: #000;
+    font-size: 36rpx;
+    font-weight: 700;
+    line-height: 36rpx;
+}
+
+.content .card .mincardbox .item .mincard .center .text1.data-v-d554a45d {
+    color: #23be93;
+    font-size: 24rpx;
+    font-weight: 500;
+    line-height: 24rpx;
+    margin-top: 20rpx;
+    position: absolute;
+}
+
+.content .card .mincardbox .item .mincard .btn.data-v-d554a45d {
+    background: linear-gradient(90deg,#c2e7c6,#0bb88b);
+    border-radius: 27rpx;
+    color: #fff;
+    font-size: 26rpx;
+    font-weight: 500;
+    height: 53rpx;
+    line-height: 53rpx;
+    margin: 0;
+    text-align: center;
+    width: 137rpx;
+}
+
+.content .card .mincardbox .item .desc.data-v-d554a45d {
+    color: #23be93;
+    font-size: 27rpx;
+    font-weight: 700;
+    line-height: 27rpx;
+    margin: 32rpx 35rpx;
+}
+

@@ -1,0 +1,141 @@
+.container.data-v-3df48dc2 {
+    height: 30px;
+    position: relative;
+    width: 30px;
+}
+
+.container.loading2.data-v-3df48dc2 {
+    transform: rotate(10deg);
+}
+
+.container.loading2 .shape.data-v-3df48dc2 {
+    border-radius: 5px;
+}
+
+.container.loading2.data-v-3df48dc2 {
+    animation: rotation 1s infinite;
+}
+
+.container .shape.data-v-3df48dc2 {
+    border-radius: 1px;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+.container .shape.shape1.data-v-3df48dc2 {
+    background-color: #1890ff;
+    left: 0;
+}
+
+.container .shape.shape2.data-v-3df48dc2 {
+    background-color: #91cb74;
+    right: 0;
+}
+
+.container .shape.shape3.data-v-3df48dc2 {
+    background-color: #fac858;
+    bottom: 0;
+}
+
+.container .shape.shape4.data-v-3df48dc2 {
+    background-color: #e66;
+    bottom: 0;
+    right: 0;
+}
+
+.loading2 .shape1.data-v-3df48dc2 {
+    animation: animation2shape1-3df48dc2 .5s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes animation2shape1-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(20px,20px);
+    }
+}
+
+@keyframes animation2shape1-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(20px,20px);
+    }
+}
+
+.loading2 .shape2.data-v-3df48dc2 {
+    animation: animation2shape2-3df48dc2 .5s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes animation2shape2-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-20px,20px);
+    }
+}
+
+@keyframes animation2shape2-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-20px,20px);
+    }
+}
+
+.loading2 .shape3.data-v-3df48dc2 {
+    animation: animation2shape3-3df48dc2 .5s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes animation2shape3-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(20px,-20px);
+    }
+}
+
+@keyframes animation2shape3-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(20px,-20px);
+    }
+}
+
+.loading2 .shape4.data-v-3df48dc2 {
+    animation: animation2shape4-3df48dc2 .5s ease 0s infinite alternate;
+}
+
+@-webkit-keyframes animation2shape4-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-20px,-20px);
+    }
+}
+
+@keyframes animation2shape4-3df48dc2 {
+    from {
+        transform: translate(0,0);
+    }
+
+    to {
+        transform: translate(-20px,-20px);
+    }
+}

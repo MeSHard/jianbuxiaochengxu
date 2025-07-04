@@ -1,0 +1,10 @@
+<view class="uv-loadmore data-v-9f5327ec" style="{{l+';'+m}}">
+    <uv-line bind:__l="__l" class="data-v-9f5327ec" uI="9f5327ec-0" uP="{{b}}" wx:if="{{a}}"></uv-line>
+    <view class="{{[i,'uv-loadmore__content','data-v-9f5327ec']}}">
+        <view class="uv-loadmore__content__icon-wrap data-v-9f5327ec" wx:if="{{c}}">
+            <uv-loading-icon bind:__l="__l" class="data-v-9f5327ec" uI="9f5327ec-1" uP="{{d}}" wx:if="{{d}}"></uv-loading-icon>
+        </view>
+        <text bindtap="{{h}}" class="{{['uv-line-1','data-v-9f5327ec',g]}}" style="{{f}}">{{e}}</text>
+    </view>
+    <uv-line bind:__l="__l" class="data-v-9f5327ec" uI="9f5327ec-2" uP="{{k}}" wx:if="{{j}}"></uv-line>
+</view>

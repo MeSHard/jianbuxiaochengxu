@@ -1,0 +1,106 @@
+.img-fill.data-v-7f7fa9ff {
+    height: 100%;
+    width: 100%;
+}
+
+.base.data-v-7f7fa9ff {
+    box-sizing: border-box;
+}
+
+.base .box.data-v-7f7fa9ff {
+    background-color: #fff;
+    box-sizing: border-box;
+    min-height: 500rpx;
+    padding: 50rpx;
+    position: relative;
+    width: 100vw;
+}
+
+.base .box .desc1.data-v-7f7fa9ff {
+    color: #000;
+    font-size: 36rpx;
+    font-weight: 700;
+}
+
+.base .box .desc2.data-v-7f7fa9ff {
+    color: #999;
+    font-size: 28rpx;
+    font-weight: 400;
+}
+
+.base .box .header.data-v-7f7fa9ff {
+    align-items: center;
+    border-bottom: 2rpx solid #999;
+    box-sizing: border-box;
+    display: flex;
+    height: 160rpx;
+    justify-content: space-between;
+}
+
+.base .box .header .header-name.data-v-7f7fa9ff {
+    flex: 0 1 20%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.base .box .header .icon.data-v-7f7fa9ff {
+    color: #e6463e;
+    left: 190rpx;
+    position: absolute;
+    top: 200rpx;
+}
+
+.base .box .header .header-box.data-v-7f7fa9ff {
+    background: #d8d8d8;
+    border-radius: 24rpx;
+    height: 80rpx;
+    overflow: hidden;
+    width: 80rpx;
+}
+
+.base .box .name.data-v-7f7fa9ff {
+    border-bottom: 2rpx solid #999;
+    display: flex;
+    height: 80rpx;
+    margin-top: 60rpx;
+    padding-right: 62rpx;
+}
+
+.base .box .row.data-v-7f7fa9ff {
+    display: flex;
+    justify-content: space-between;
+}
+
+.base .box .row .text1.data-v-7f7fa9ff {
+    flex: 0 1 20%;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.base .box .row .icon.data-v-7f7fa9ff {
+    color: #e6463e;
+    left: 190rpx;
+    position: absolute;
+}
+
+.base .box .sub-btn.data-v-7f7fa9ff {
+    background: linear-gradient(90deg,#c2e7c6,#0bb88b);
+    border-radius: 44rpx;
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 500;
+    height: 96rpx;
+    line-height: 96rpx;
+    margin: 60rpx auto;
+    width: 590rpx;
+}
+
+.base .box .close.data-v-7f7fa9ff {
+    position: absolute;
+    right: 40rpx;
+    top: 40rpx;
+}
+
+button.data-v-7f7fa9ff::after {
+    border: none;
+}

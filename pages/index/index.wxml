@@ -1,0 +1,62 @@
+<view class="content data-v-1cf27b2a">
+    <scroll-view class="scrollcontent data-v-1cf27b2a" scrollY="true">
+        <image class="bg data-v-1cf27b2a" mode="" src="{{a}}"></image>
+        <image class="bgf data-v-1cf27b2a" mode="" src="{{b}}"></image>
+        <view class="toplist data-v-1cf27b2a">
+            <view bindtap="{{d}}" class="item data-v-1cf27b2a" style="width:178rpx">
+                <image class="img data-v-1cf27b2a" mode="" src="{{c}}" style="width:52rpx;height:58rpx"></image>
+                <text class="text data-v-1cf27b2a">排行榜</text>
+            </view>
+            <view bindtap="{{f}}" class="item data-v-1cf27b2a" style="width:154rpx">
+                <image class="img data-v-1cf27b2a" mode="" src="{{e}}" style="width:45rpx;height:58rpx"></image>
+                <text class="text data-v-1cf27b2a">成就</text>
+            </view>
+            <view bindtap="{{h}}" class="item data-v-1cf27b2a" style="width:161rpx">
+                <image class="img data-v-1cf27b2a" mode="" src="{{g}}" style="width:48rpx;height:59rpx"></image>
+                <text class="text data-v-1cf27b2a">日历</text>
+            </view>
+
+        </view>
+        <view class="botlist data-v-1cf27b2a">
+            <view bindtap="{{kk}}" class="item marg data-v-1cf27b2a">
+                <image class="itembg data-v-1cf27b2a" mode="" src="{{i}}"></image>
+            </view>
+            <view bindtap="{{k}}" class="item data-v-1cf27b2a">
+                <image class="itembg data-v-1cf27b2a" mode="" src="{{j}}"></image>
+            </view>
+            <view bindtap="{{s}}" class="centerbox data-v-1cf27b2a">
+                <view class="{{['center','data-v-1cf27b2a',r&&'active']}}">
+                    <view class="text data-v-1cf27b2a" wx:if="{{l}}">获取<view class="data-v-1cf27b2a"></view>今日步数</view>
+                    <view class="nowstep data-v-1cf27b2a" wx:if="{{m}}">
+                        <view class="nowsteptop data-v-1cf27b2a">
+                            <image class="img data-v-1cf27b2a" mode="" src="{{n}}"></image>
+                            <text class="text data-v-1cf27b2a">今日步数</text>
+                        </view>
+                        <view class="nowstepbot data-v-1cf27b2a">{{o}}</view>
+                    </view>
+                    <view class="activetrue data-v-1cf27b2a" wx:if="{{p}}">
+                        <image class="centerimg data-v-1cf27b2a" mode="" src="{{q}}"></image>
+                        <text class="activetruetext data-v-1cf27b2a">今日达标啦</text>
+                    </view>
+                </view>
+            </view>
+            <view bindtap="{{v}}" class="item marg data-v-1cf27b2a">
+                <image class="itembg data-v-1cf27b2a" mode="" src="{{t}}"></image>
+            </view>
+            <view bindtap="{{x}}" class="item data-v-1cf27b2a">
+                <image class="itembg data-v-1cf27b2a" mode="" src="{{w}}"></image>
+            </view>
+        </view>
+        <view class="poalist data-v-1cf27b2a">
+            <view class="item data-v-1cf27b2a" wx:for="{{y}}">
+                <image class="lock data-v-1cf27b2a" mode="" src="{{item.c}}" wx:if="{{!item.a}}"></image>
+                <!-- <image class="lock data-v-1cf27b2a" mode="" src="{{item.c}}" wx:else></image> -->
+            </view>
+        </view>
+    </scroll-view>
+    <view bindtap="{{C}}" class="data-v-1cf27b2a" style="position:fixed;left:270rpx;bottom:38rpx">
+        <tui-circular-progress bind:__l="__l" class="data-v-1cf27b2a" uI="1cf27b2a-0" uP="{{A}}" wx:if="{{z}}"></tui-circular-progress>
+        <tui-circular-progress bind:__l="__l" class="data-v-1cf27b2a" uI="1cf27b2a-1" uP="{{B||''}}" wx:else></tui-circular-progress>
+    </view>
+</view>
+<calendar bind:__l="__l" class="r data-v-1cf27b2a" uI="1cf27b2a-2" uR="calendarRef"></calendar>

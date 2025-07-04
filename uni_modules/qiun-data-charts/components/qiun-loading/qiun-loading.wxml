@@ -1,0 +1,7 @@
+<view>
+    <loading1 bind:__l="__l" uI="ae7195ea-0" wx:if="{{a}}"></loading1>
+    <loading2 bind:__l="__l" uI="ae7195ea-1" wx:if="{{b}}"></loading2>
+    <loading3 bind:__l="__l" uI="ae7195ea-2" wx:if="{{c}}"></loading3>
+    <loading4 bind:__l="__l" uI="ae7195ea-3" wx:if="{{d}}"></loading4>
+    <loading5 bind:__l="__l" uI="ae7195ea-4" wx:if="{{e}}"></loading5>
+</view>

@@ -1,0 +1,36 @@
+<view class="content data-v-33268ad9">
+    <view class="img data-v-33268ad9">
+        <swiper circular autoplay="{{true}}" class="data-v-33268ad9" duration="{{1000}}" indicatorDots="{{true}}" interval="{{3000}}" style="height:353rpx">
+            <swiper-item class="swiper-item data-v-33268ad9">
+                <image class="img-fill data-v-33268ad9" mode="" src="{{a}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="list data-v-33268ad9">
+      <view class="title data-v-d554a45d">
+            <image class="titlebg data-v-d554a45d" mode="" src="https://step.cyuncq.com/stepactive/answer2.png"></image>
+            <view class="titletext data-v-d554a45d">{{title}}</view>
+        </view>
+        <view class="scroll data-v-33268ad9">
+            <scroll-view class="data-v-33268ad9" scrollY="true" style="height:800rpx">
+                <view class="scroll-box data-v-33268ad9">
+                    <view bindtap="{{item.b}}" class="list-item data-v-33268ad9" wx:for="{{b}}">
+                        <view class="img data-v-33268ad9">
+                            <image class="img-fill data-v-33268ad9" mode="" src="{{item.a}}"></image>
+                        </view>
+                        <view class="cont data-v-33268ad9">
+                            <view class="name data-v-33268ad9">{{item.c}}</view>
+                            <view class="bot data-v-33268ad9">
+                                <view class="date data-v-33268ad9">【{{item.d}}】</view>
+                                <view class="detail data-v-33268ad9">活动详情<view class="arrow data-v-33268ad9">
+                                        <image class="img-fill data-v-33268ad9" mode="" src="{{c}}"></image>
+                                    </view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>

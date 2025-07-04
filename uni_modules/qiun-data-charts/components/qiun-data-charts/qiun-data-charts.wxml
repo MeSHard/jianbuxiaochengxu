@@ -1,0 +1,24 @@
+<view class="chartsview data-v-0ca34aee" id="{{ac}}">
+    <view class="data-v-0ca34aee" wx:if="{{a}}">
+        <qiun-loading bind:__l="__l" class="data-v-0ca34aee" uI="0ca34aee-0" uP="{{b}}" wx:if="{{b}}"></qiun-loading>
+    </view>
+    <view bindtap="{{e}}" class="data-v-0ca34aee" wx:if="{{c}}">
+        <qiun-error bind:__l="__l" class="data-v-0ca34aee" uI="0ca34aee-1" uP="{{d}}" wx:if="{{d}}"></qiun-error>
+    </view>
+    <block wx:if="{{f}}">
+        <view bindtap="{{s}}" class="data-v-0ca34aee" wx:if="{{g}}">
+            <canvas binderror="{{q}}" bindtouchend="{{p}}" bindtouchmove="{{o}}" bindtouchstart="{{n}}" canvasId="{{i}}" class="data-v-0ca34aee" disableScroll="{{m}}" hidden="{{!r}}" id="{{h}}" style="{{'width:'+j+';'+'height:'+k+';'+'background:'+l}}" type="2d" wx:if="{{r0}}"></canvas>
+        </view>
+        <view bindtap="{{D}}" class="data-v-0ca34aee" wx:if="{{t}}">
+            <canvas binderror="{{B}}" canvasId="{{w}}" class="data-v-0ca34aee" disableScroll="{{A}}" hidden="{{!C}}" id="{{v}}" style="{{'width:'+x+';'+'height:'+y+';'+'background:'+z}}" type="2d" wx:if="{{r0}}"></canvas>
+        </view>
+    </block>
+    <block wx:if="{{E}}">
+        <view bindtap="{{R}}" class="data-v-0ca34aee" wx:if="{{F}}">
+            <canvas binderror="{{Q}}" bindtouchend="{{O}}" bindtouchmove="{{N}}" bindtouchstart="{{M}}" canvasId="{{I}}" class="data-v-0ca34aee" disableScroll="{{P}}" id="{{H}}" style="{{'width:'+J+';'+'height:'+K+';'+'background:'+L}}" wx:if="{{G}}"></canvas>
+        </view>
+        <view class="data-v-0ca34aee" wx:if="{{S}}">
+            <canvas binderror="{{ab}}" bindtap="{{aa}}" canvasId="{{V}}" class="data-v-0ca34aee" disableScroll="{{Z}}" id="{{U}}" style="{{'width:'+W+';'+'height:'+X+';'+'background:'+Y}}" wx:if="{{T}}"></canvas>
+        </view>
+    </block>
+</view>

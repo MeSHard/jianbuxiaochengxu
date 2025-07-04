@@ -1,0 +1,101 @@
+<view class="content data-v-716fbf2c">
+    <image class="rankimg data-v-716fbf2c" mode="" src="{{a}}"></image>
+    <view class="tabs data-v-716fbf2c">
+        <view bindtap="{{b}}" class="{{['item','data-v-716fbf2c',c&&'active']}}">区县综合排名</view>
+        <view bindtap="{{dd}}" class="{{['item','data-v-716fbf2c',dd1&&'active']}}">队伍排名</view>
+        <view bindtap="{{d}}" class="{{['item','data-v-716fbf2c',e&&'active']}}">步数排名</view>
+        <view bindtap="{{f}}" class="{{['item','data-v-716fbf2c',g&&'active']}}">学习排名</view>
+    </view>
+    <view class="titlebox data-v-716fbf2c">
+        <view class="rank data-v-716fbf2c">排名</view>
+        <view class="avatar data-v-716fbf2c" wx:if="{{h && !d1}}">头像</view>
+        <view class="name data-v-716fbf2c" wx:if="{{i && !d1}}">姓名</view>
+        <view class="address data-v-716fbf2c" wx:if="{{j || d1}}">区县</view>
+        <view class="address data-v-716fbf2c" wx:if="{{d1}}">队伍</view>
+        <view class="right data-v-716fbf2c">
+          <!-- <view class="integral data-v-716fbf2c" wx:if="{{d1}}">全市排名</view>
+          <view class="integral data-v-716fbf2c" wx:if="{{d1}}">本区县排名</view> -->
+          <view class="integral data-v-716fbf2c" wx:if="{{d1}}">人数</view>
+          <view class="integral data-v-716fbf2c" wx:if="{{d1}}">人日均步数</view>
+          <view class="integral data-v-716fbf2c" wx:if="{{d1}}">人均积分</view>
+
+            <view class="integral data-v-716fbf2c" wx:if="{{k}}">总积分</view>
+            <view class="integral data-v-716fbf2c" wx:if="{{k}}">人均积分</view>
+            <view class="integral data-v-716fbf2c" wx:if="{{k}}">参赛人数</view>
+
+            <view class="integral data-v-716fbf2c" wx:if="{{l}}">今日步数</view>
+            <view class="integral data-v-716fbf2c" wx:if="{{l}}">总积分</view>
+            <view class="integral data-v-716fbf2c" wx:if="{{l}}">总步数</view>
+
+
+            <view class="integral data-v-716fbf2c" wx:if="{{m}}">分数</view>
+        </view>
+    </view>
+    <view class="topthree data-v-716fbf2c">
+        <view class="{{['item','data-v-716fbf2c',item.i&&'active',item.j&&'active']}}" wx:for="{{n}}">
+            <view class="topthreerankbox data-v-716fbf2c">
+                <image class="topthreerank data-v-716fbf2c" mode="" src="{{item.a}}"></image>
+            </view>
+            <view class="avatar data-v-716fbf2c" wx:if="{{o && !d1}}">
+                <uv-avatar bind:__l="__l" class="data-v-716fbf2c" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></uv-avatar>
+            </view>
+
+            <view class="name data-v-716fbf2c" wx:if="{{d1}}">{{item.d1}}</view>
+
+            <view class="name uv-line-1 data-v-716fbf2c" wx:if="{{p && !d1}}">{{item.d}}</view>
+            <view class="address data-v-716fbf2c" wx:if="{{q}}">{{item.e}}</view>
+            <view class="right data-v-716fbf2c">
+                <view class="integral data-v-716fbf2c" wx:if="{{r}}">{{item.f}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{r}}">{{item.f2}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{r}}">{{item.f3}}</view>
+
+                <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d2}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d3}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d4}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d5}}</view>
+
+                <view class="integral data-v-716fbf2c" wx:if="{{s}}">{{item.g}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{s}}">{{item.g1}}</view>
+                <view class="integral data-v-716fbf2c" wx:if="{{s}}">{{item.g2}}</view>
+
+                <view class="integral data-v-716fbf2c" wx:if="{{t}}">{{item.h}}</view>
+            </view>
+        </view>
+    </view>
+    <scroll-view bindscrolltolower="{{E}}" class="allrank data-v-716fbf2c" scrollY="true">
+        <view class="list data-v-716fbf2c">
+            <view class="{{['item','data-v-716fbf2c',item.i&&'active',item.j&&'active']}}" wx:for="{{v}}">
+                <view class="rank data-v-716fbf2c">{{item.a}}</view>
+                <view class="avatar data-v-716fbf2c" wx:if="{{w && !d1}}">
+                    <uv-avatar bind:__l="__l" class="data-v-716fbf2c" uI="{{item.b}}" uP="{{item.c}}" wx:if="{{item.c}}"></uv-avatar>
+                </view>
+
+                <view class="name  data-v-716fbf2c" wx:if="{{d1}}">{{item.d1}}</view>
+
+                <view class="name uv-line-1 data-v-716fbf2c" wx:if="{{x  && !d1}}">{{item.d}}</view>
+                <view class="address data-v-716fbf2c" wx:if="{{y }}">{{item.e}}</view>
+                <view class="right data-v-716fbf2c">
+                    <view class="integral data-v-716fbf2c" wx:if="{{z}}">{{item.f}}</view>
+                    <view class="integral data-v-716fbf2c" wx:if="{{z}}">{{item.f2}}</view>
+                    <view class="integral data-v-716fbf2c" wx:if="{{z}}">{{item.f3}}</view>
+
+ <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d2}}</view>
+ <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d3}}</view>
+ <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d4}}</view>
+ <view class="integral data-v-716fbf2c" wx:if="{{d1}}">{{item.d5}}</view>
+
+
+
+                    <view class="integral data-v-716fbf2c" wx:if="{{A}}">{{item.g}}</view>
+                    <view class="integral data-v-716fbf2c" wx:if="{{A}}">{{item.g1}}</view>
+                    <view class="integral data-v-716fbf2c" wx:if="{{A}}">{{item.g2}}</view>
+
+
+                    <view class="integral data-v-716fbf2c" wx:if="{{B}}">{{item.h}}</view>
+                </view>
+            </view>
+        </view>
+        <uv-load-more bind:__l="__l" class="data-v-716fbf2c" uI="716fbf2c-2" uP="{{D}}" wx:if="{{C}}"></uv-load-more>
+        <uv-empty bind:__l="__l" class="data-v-716fbf2c" uI="716fbf2c-3" wx:else></uv-empty>
+    </scroll-view>
+</view>

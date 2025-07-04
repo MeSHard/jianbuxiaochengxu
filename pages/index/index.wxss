@@ -1,0 +1,266 @@
+.content.data-v-1cf27b2a {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .scrollcontent.data-v-1cf27b2a {
+    height: 100%;
+    position: relative;
+}
+
+.content .scrollcontent .bg.data-v-1cf27b2a {
+    height: 2536rpx;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .scrollcontent .bgf.data-v-1cf27b2a {
+    height: 92rpx;
+    left: 606rpx;
+    position: absolute;
+    top: 150rpx;
+    width: 81rpx;
+}
+
+.content .scrollcontent .avatarbox.data-v-1cf27b2a {
+    height: 92rpx;
+    position: absolute;
+    right: 64rpx;
+    top: 155rpx;
+    width: 81rpx;
+}
+
+.content .scrollcontent .avatarbox .avatarbg.data-v-1cf27b2a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .scrollcontent .avatarbox .avatar.data-v-1cf27b2a {
+    left: 12rpx;
+    position: relative;
+    top: 12rpx;
+}
+
+.content .scrollcontent .toplist.data-v-1cf27b2a {
+    align-items: center;
+    display: flex;
+    margin-left: 38rpx;
+    margin-top: 70rpx;
+}
+
+.content .scrollcontent .toplist .item.data-v-1cf27b2a {
+    background: #d4fedf;
+    border-radius: 25rpx;
+    box-sizing: border-box;
+    display: flex;
+    height: 51rpx;
+    justify-content: flex-end;
+    margin-right: 48rpx;
+    padding: 0 26rpx;
+    position: relative;
+}
+
+.content .scrollcontent .toplist .item .img.data-v-1cf27b2a {
+    bottom: 10rpx;
+    left: 14rpx;
+    position: absolute;
+}
+
+.content .scrollcontent .toplist .item .text.data-v-1cf27b2a {
+    color: #000;
+    font-size: 28rpx;
+    font-weight: 700;
+    line-height: 51rpx;
+}
+
+.content .scrollcontent .botlist.data-v-1cf27b2a {
+    align-items: flex-end;
+    bottom: 38rpx;
+    box-sizing: border-box;
+    display: flex;
+    left: 0;
+    padding: 0 48rpx;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.content .scrollcontent .botlist .item.data-v-1cf27b2a {
+    border-radius: 25rpx;
+    height: 111rpx;
+    margin-bottom: 37rpx;
+    position: relative;
+    width: 85rpx;
+}
+
+.content .scrollcontent .botlist .item .itembg.data-v-1cf27b2a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .scrollcontent .botlist .marg.data-v-1cf27b2a {
+    margin-right: 22rpx;
+}
+
+.content .scrollcontent .botlist .centerbox.data-v-1cf27b2a {
+    border-radius: 50%;
+    margin: 0 40rpx;
+    position: relative;
+}
+
+.content .scrollcontent .botlist .centerbox .roundprogress.data-v-1cf27b2a,.content .scrollcontent .botlist .centerbox.data-v-1cf27b2a {
+    align-items: center;
+    display: flex;
+    height: 193rpx;
+    justify-content: center;
+    width: 193rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center.data-v-1cf27b2a {
+    align-items: center;
+    background: linear-gradient(180deg,#ccf5d0,#0dc897);
+    border-radius: 50%;
+    display: flex;
+    height: 143rpx;
+    justify-content: center;
+    left: 25rpx;
+    position: absolute;
+    text-align: center;
+    top: 25rpx;
+    width: 143rpx;
+    z-index: 99;
+}
+
+.content .scrollcontent .botlist .centerbox .center .text.data-v-1cf27b2a {
+    color: #fff;
+    font-size: 25rpx;
+    font-weight: 700;
+    line-height: 33rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center .nowstep .nowsteptop.data-v-1cf27b2a {
+    align-items: center;
+    display: flex;
+}
+
+.content .scrollcontent .botlist .centerbox .center .nowstep .nowsteptop .img.data-v-1cf27b2a {
+    height: 31rpx;
+    width: 31rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center .nowstep .nowsteptop .text.data-v-1cf27b2a {
+    color: #fff;
+    font-size: 20rpx;
+    font-weight: 700;
+    line-height: 20rpx;
+    margin-left: 3rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center .nowstep .nowstepbot.data-v-1cf27b2a {
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 700;
+    line-height: 30rpx;
+    margin-top: 16rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center .activetrue.data-v-1cf27b2a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .scrollcontent .botlist .centerbox .center .activetrue .centerimg.data-v-1cf27b2a {
+    height: 36rpx;
+    width: 26rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .center .activetrue .activetruetext.data-v-1cf27b2a {
+    color: #fff;
+    font-size: 22rpx;
+    font-weight: 700;
+    line-height: 22rpx;
+    margin-top: 13rpx;
+}
+
+.content .scrollcontent .botlist .centerbox .active.data-v-1cf27b2a {
+    background: linear-gradient(180deg,#fab2b2,#dd4141);
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a {
+    position: absolute;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(1) {
+    left: 364rpx;
+    top: 450rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(2) {
+    left: 99rpx;
+    top: 669rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(3) {
+    left: 618rpx;
+    top: 730rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(4) {
+    left: 273rpx;
+    top: 921rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(5) {
+    left: 73rpx;
+    top: 1131rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(6) {
+    left: 624rpx;
+    top: 1179rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(7) {
+    left: 71rpx;
+    top: 1415rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(8) {
+    left: 107rpx;
+    top: 1658rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(9) {
+    left: 652rpx;
+    top: 1689rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(10) {
+    left: 198rpx;
+    top: 1873rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(11) {
+    left: 54rpx;
+    top: 2024rpx;
+}
+
+.content .scrollcontent .poalist .item.data-v-1cf27b2a:nth-child(12) {
+    left: 273rpx;
+    top: 2191rpx;
+}
+
+.content .scrollcontent .poalist .item .lock.data-v-1cf27b2a {
+    height: 54rpx;
+    width: 52rpx;
+}

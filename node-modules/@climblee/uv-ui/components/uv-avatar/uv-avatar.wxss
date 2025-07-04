@@ -1,0 +1,32 @@
+scroll-view.data-v-0a88435c,swiper-item.data-v-0a88435c,view.data-v-0a88435c {
+    align-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.uv-avatar.data-v-0a88435c {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.uv-avatar--circle.data-v-0a88435c {
+    border-radius: 100px;
+}
+
+.uv-avatar--square.data-v-0a88435c {
+    border-radius: 4px;
+}
+
+.uv-avatar__image--circle.data-v-0a88435c {
+    border-radius: 100px;
+}
+
+.uv-avatar__image--square.data-v-0a88435c {
+    border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+<view class="base data-v-7f7fa9ff">
+    <uv-popup bind:__l="__l" class="r data-v-7f7fa9ff" uI="7f7fa9ff-0" uP="{{i}}" uR="popup" uS="{{['d']}}" wx:if="{{i}}">
+        <view class="box data-v-7f7fa9ff">
+            <view class="desc1 data-v-7f7fa9ff">完善您的信息</view>
+            <view class="desc2 data-v-7f7fa9ff">完善信息才可以获取更多内容喔</view>
+            <view class="header data-v-7f7fa9ff">
+                <view class="header-name data-v-7f7fa9ff">头像</view>
+                <view class="icon data-v-7f7fa9ff">*</view>
+                <button bindchooseavatar="{{b}}" class="data-v-7f7fa9ff" openType="chooseAvatar" style="border:none;background-color:#fff;margin:0 30rpx">
+                    <view class="header-box data-v-7f7fa9ff">
+                        <image class="img-fill data-v-7f7fa9ff" mode="" src="{{a}}"></image>
+                    </view>
+                </button>
+            </view>
+            <form bindsubmit="{{e}}" class="data-v-7f7fa9ff">
+                <view class="row flex name data-v-7f7fa9ff">
+                    <view class="text1 data-v-7f7fa9ff">昵称</view>
+                    <view class="icon data-v-7f7fa9ff">*</view>
+                    <input bindinput="{{d}}" class="weui-input data-v-7f7fa9ff" name="nickname" placeholder="请输入您的昵称" style="text-align:right" type="nickname" value="{{c}}"></input>
+                </view>
+                <button class="sub-btn data-v-7f7fa9ff" formType="submit">立即登录</button>
+            </form>
+            <view bindtap="{{g}}" class="close data-v-7f7fa9ff">
+                <uv-icon bind:__l="__l" class="data-v-7f7fa9ff" uI="7f7fa9ff-1,7f7fa9ff-0" uP="{{f}}" wx:if="{{f}}"></uv-icon>
+            </view>
+        </view>
+    </uv-popup>
+</view>

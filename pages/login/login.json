@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "微信授权",
+    "usingComponents": {
+        "login-pop": "../../common/loginPop"
+    }
+}

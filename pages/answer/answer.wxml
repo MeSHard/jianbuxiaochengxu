@@ -1,0 +1,38 @@
+<view class="content data-v-d554a45d">
+    <image class="bg data-v-d554a45d" mode="" src="{{a}}"></image>
+    <view class="userinfo data-v-d554a45d">
+        <image class="userinfobg data-v-d554a45d" mode="" src="{{b}}"></image>
+        <view class="infobox data-v-d554a45d">
+            <view class="avatar data-v-d554a45d">
+                <uv-avatar bind:__l="__l" class="data-v-d554a45d" uI="d554a45d-0" uP="{{c}}" wx:if="{{c}}"></uv-avatar>
+            </view>
+            <view class="name data-v-d554a45d">{{d}}</view>
+        </view>
+    </view>
+    <view class="card data-v-d554a45d">
+        <view class="title data-v-d554a45d">
+            <image class="titlebg data-v-d554a45d" mode="" src="{{e}}"></image>
+            <view class="titletext data-v-d554a45d">学习健康知识</view>
+        </view>
+        <scroll-view class="mincardbox data-v-d554a45d" scrollY="true">
+            <view class="item data-v-d554a45d" wx:for="{{f}}">
+              
+              <view class="mincard data-v-d554a45d" >
+                    <view class="imagebox data-v-d554a45d">
+                        <image class="image data-v-d554a45d" mode="" src="{{g}}"></image>
+                    </view>
+                    <view class="center data-v-d554a45d">
+                        <view class="text data-v-d554a45d">{{item.a}}</view>
+                    <view class="text1 data-v-d554a45d" >
+                    开放时间:<span style="color: red;line-height: 24rpx;" wx:if="{{item.d === 'true' }}">{{item.createTime}}</span>
+                    <span style="line-height: 24rpx;" wx:else="">{{item.createTime}}</span>
+                    </view>
+                    </view>
+                    <button bindtap="{{item.b}}" wx:if="{{item.finishNum == 0}}" class="uv-reset-button btn data-v-d554a45d">立即闯关</button>
+                    <view class="uv-reset-button btn data-v-d554a45d" wx:else="" style="background:#e8cbc2">{{item.sumNum - item.errNum}}/{{item.finishNum}}</view>
+                </view>
+                <view class="desc data-v-d554a45d"></view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

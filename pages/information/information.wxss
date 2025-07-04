@@ -1,0 +1,140 @@
+.content .item.data-v-17c83bce {
+    box-sizing: border-box;
+    margin-top: 39rpx;
+    padding: 0 32rpx;
+}
+
+.content .item .text.data-v-17c83bce {
+    color: #000;
+    font-size: 30rpx;
+    font-weight: 700;
+    line-height: 30rpx;
+}
+
+.content .item .inputbox.data-v-17c83bce {
+    align-items: center;
+    background: #f6f6f6;
+    border-radius: 10rpx;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20rpx;
+    min-height: 100rpx;
+    padding: 0 30rpx 0 34rpx;
+    width: 686rpx;
+}
+
+.content .item .inputbox .input.data-v-17c83bce {
+    color: #000;
+    flex: 1;
+    font-size: 29rpx;
+    font-weight: 500;
+    line-height: 37rpx;
+}
+
+.content .checkbox.data-v-17c83bce {
+    display: flex;
+    margin: 36rpx 0 0 32rpx;
+    position: relative;
+}
+
+.content .checkbox .checked.data-v-17c83bce {
+    border: 2rpx solid #a1a1a1;
+    border-radius: 13rpx;
+    box-sizing: border-box;
+    height: 28rpx;
+    margin-top: 2rpx;
+    width: 28rpx;
+}
+
+.content .checkbox .checked .checkimg.data-v-17c83bce {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.content .checkbox .active.data-v-17c83bce {
+    border: none;
+}
+
+.content .checkbox .active .checkimg.data-v-17c83bce {
+    display: block;
+}
+
+.content .checkbox .check.data-v-17c83bce {
+    color: #282828;
+    font-size: 22rpx;
+    font-weight: 500;
+    line-height: 32rpx;
+    margin-left: 8rpx;
+    width: 530rpx;
+}
+
+.content .checkbox .check .protocol.data-v-17c83bce {
+    color: #26bf94;
+}
+
+.content .submit.data-v-17c83bce {
+    background: linear-gradient(90deg,#c2e7c6,#0bb88b);
+    border-radius: 48rpx;
+    color: #fff;
+    font-size: 32rpx;
+    font-weight: 700;
+    height: 95rpx;
+    line-height: 95rpx;
+    margin-top: 43rpx;
+    text-align: center;
+    width: 685rpx;
+}
+
+.popup.data-v-17c83bce {
+    background: #fff;
+    height: 740rpx;
+    overflow: hidden;
+    width: 750rpx;
+}
+
+.popup .picker-view.data-v-17c83bce {
+    height: 500rpx;
+    margin: 56rpx auto 0;
+    width: 100%;
+}
+
+.popup .picker-view .date.data-v-17c83bce {
+    color: #2a2a2a;
+    font-size: 36rpx;
+    font-weight: 500;
+    line-height: 100rpx;
+    text-align: center;
+}
+
+.popup .btns.data-v-17c83bce {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0rpx -4rpx 8rpx 0rpx rgba(0,0,0,.34);
+    display: flex;
+    height: 184rpx;
+    justify-content: center;
+    width: 100%;
+}
+
+.popup .btns .cancel.data-v-17c83bce {
+    background: #f4f5f7;
+    color: #000;
+    margin: 0;
+}
+
+.popup .btns .cancel.data-v-17c83bce,.popup .btns .confirm.data-v-17c83bce {
+    border-radius: 20rpx;
+    font-size: 31rpx;
+    font-weight: 500;
+    height: 74rpx;
+    line-height: 74rpx;
+    text-align: center;
+    width: 219rpx;
+}
+
+.popup .btns .confirm.data-v-17c83bce {
+    background: linear-gradient(90deg,#c2e7c6,#0bb88b);
+    color: #fff;
+    margin: 0 0 0 32rpx;
+}

@@ -1,0 +1,18 @@
+scroll-view.data-v-9f1375bb,swiper-item.data-v-9f1375bb,view.data-v-9f1375bb {
+    align-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.uv-link.data-v-9f1375bb {
+    color: #3c9cff;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 1;
+}

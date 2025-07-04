@@ -1,0 +1,18 @@
+<view class="content data-v-e4e4508d">
+    <image class="bg data-v-e4e4508d" mode="" src="{{a}}"></image>
+    <image class="img data-v-e4e4508d" mode="" src="{{b}}"></image>
+    <view class="title data-v-e4e4508d">健康体重 渝你同行</view>
+    <view class="mintext data-v-e4e4508d">Healthy Chongqing and Chongqing, travel with you</view>
+    <button bindtap="{{d}}" class="uv-reset-button btn data-v-e4e4508d">
+        <image class="weixin data-v-e4e4508d" mode="" src="{{c}}"></image>
+        <text class="text data-v-e4e4508d">微信授权登录</text>
+    </button>
+    <view bindtap="{{i}}" class="checkbox data-v-e4e4508d">
+        <view class="{{['checked','data-v-e4e4508d',f&&'active']}}">
+            <image class="checkimg data-v-e4e4508d" mode="" src="{{e}}"></image>
+        </view>
+        <view class="check data-v-e4e4508d">我已阅读并同意<text catchtap="{{g}}" class="protocol data-v-e4e4508d">《服务条款》、</text>
+            <text catchtap="{{h}}" class="protocol data-v-e4e4508d">《隐私协议》</text>未注册的手机号将自动注册</view>
+    </view>
+    <login-pop bind:__l="__l" class="r data-v-e4e4508d" uI="e4e4508d-0" uR="loginpop"></login-pop>
+</view>

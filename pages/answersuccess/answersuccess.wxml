@@ -1,0 +1,38 @@
+<view class="content data-v-fa1377c8">
+    <image class="bg data-v-fa1377c8" mode="" src="{{a}}"></image>
+    <view class="card data-v-fa1377c8">
+        <image class="poaimg data-v-fa1377c8" mode="" src="{{b}}"></image>
+        <view class="en data-v-fa1377c8">Failed to enter the level</view>
+        <view class="zh data-v-fa1377c8">答题完成</view>
+        <view class="line data-v-fa1377c8"></view>
+        <view class="integralbox data-v-fa1377c8">
+            <image class="integralimg data-v-fa1377c8" mode="" src="{{c}}"></image>
+            <view class="text data-v-fa1377c8">对</view>
+            <view class="count data-v-fa1377c8">{{d}}题</view>
+        </view>
+        <view class="desc data-v-fa1377c8" >{{d==5 ?'完美通过！快去排行榜查看排名吧！':''}}</view>
+        <view class="btns data-v-fa1377c8">
+            <button bindtap="{{e}}" class="uv-reset-button btn1 data-v-fa1377c8">返回首页</button>
+            <button bindtap="{{f}}" class="uv-reset-button btn2 data-v-fa1377c8">查看排行榜</button>
+        </view>
+    </view>
+    <view class="errortitle data-v-fa1377c8">错题本解析</view>
+    <view class="topiclist data-v-fa1377c8">
+        <view class="item data-v-fa1377c8" wx:for="{{g}}">
+            <view class="topictitle data-v-fa1377c8">{{item.a}}、：{{item.b}}</view>
+            <view class="topicresult data-v-fa1377c8">
+                <text class="text data-v-fa1377c8">正确答案：</text>
+                <text class="correctresult data-v-fa1377c8">{{item.c}}</text>
+                <text class="text data-v-fa1377c8">您的答案：</text>
+                <text class="myresult data-v-fa1377c8">{{item.d}}</text>
+            </view>
+            <view class="line data-v-fa1377c8"></view>
+            <view class="options data-v-fa1377c8">
+                <view class="left data-v-fa1377c8">【选项】</view>
+                <view class="right data-v-fa1377c8">
+                    <view class="option data-v-fa1377c8" wx:for="{{item.e}}" wx:for-item="item1">{{item1.a}}.{{item1.b}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

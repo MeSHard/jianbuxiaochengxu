@@ -1,0 +1,10 @@
+<view bindtap="{{p}}" class="{{['uv-avatar','data-v-0a88435c',m]}}" style="{{n+';'+o}}">
+    <slot wx:if="{{$slots.d}}"></slot>
+    <block wx:else>
+        <open-data class="data-v-0a88435c" style="{{b}}" type="userAvatarUrl" wx:if="{{a}}"></open-data>
+        <block wx:if="{{c}}"></block>
+        <uv-icon bind:__l="__l" class="data-v-0a88435c" uI="0a88435c-0" uP="{{e}}" wx:elif="{{d}}"></uv-icon>
+        <uv-text bind:__l="__l" class="data-v-0a88435c" uI="0a88435c-1" uP="{{g}}" wx:elif="{{f}}"></uv-text>
+        <image binderror="{{k}}" class="{{['uv-avatar__image','data-v-0a88435c',h]}}" mode="{{j}}" src="{{i}}" style="{{l}}" wx:else></image>
+    </block>
+</view>

@@ -1,0 +1,17 @@
+<view class="content data-v-b9ea4f35">
+    <view class="nodata data-v-b9ea4f35" wx:if="{{a}}">您已完成答题</view>
+    <view class="box data-v-b9ea4f35" wx:if="{{b}}">
+        <view class="title data-v-b9ea4f35">
+            <text class="text data-v-b9ea4f35"> 选择题 <view class="data-v-b9ea4f35"></view>
+            </text>
+            <text class="count data-v-b9ea4f35">{{c}}/{{d}}</text>
+        </view>
+        <view class="topic data-v-b9ea4f35">{{f}}</view>
+        <view bindtap="{{item.c}}" class="{{['option','data-v-b9ea4f35',item.d&&'active']}}" wx:for="{{g}}">{{item.a}}.{{item.b}}</view>
+    </view>
+    <view class=" data-v-b9ea4f35" style="height:127rpx"></view>
+    <view class="fixed data-v-b9ea4f35" wx:if="{{h}}">
+        <button bindtap="{{j}}" class="{{['uv-reset-button','btn','data-v-b9ea4f35',k&&'active']}}" wx:if="{{i}}">下一题</button>
+        <button bindtap="{{l}}" class="uv-reset-button btn data-v-b9ea4f35" wx:else>提交</button>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "成就",
+    "usingComponents": {
+        "uv-avatar": "../../node-modules/@climblee/uv-ui/components/uv-avatar/uv-avatar",
+        "tui-poster": "../../components/thorui/tui-poster/tui-poster"
+    }
+}

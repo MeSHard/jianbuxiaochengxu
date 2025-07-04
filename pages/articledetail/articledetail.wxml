@@ -1,0 +1,26 @@
+<view class="content data-v-0075957d">
+    <image class="data-v-0075957d" mode="" src="{{data.img}}" style="width:100%" wx:if="{{data.img}}"></image>
+    <video 
+    id="myVideo" 
+    class="data-v-0075957d"  bindplay="bindplay"
+        bindended="bindended"
+        controls="{{true}}" 
+        enable-progress-gesture="{{false}}"
+        enable-play-gesture="{{true}}"
+        show-bottom-progress="{{false}}"
+        src="{{data.videos}}" 
+        style="width:100%" 
+        wx:if="{{data.videos}}"
+        bindtimeupdate='bindtimeupdate'
+        >
+      </video>
+    <view class="data-v-0075957d" style="width:100%">
+      <rich-text nodes="{{data.content}}"></rich-text>
+    </view>
+
+<!-- <view style="background: #9c9c9c;width: 100%; border-radius: 10rpx;padding: 10rpx;margin-top: 20rpx;">
+  <view style="background: #9c9c9c; display: inline; border-radius: 10rpx;padding: 10rpx;margin-top: 20rpx;">
+    已观看完整科普学习视频！</view>
+</view> -->
+    
+</view>

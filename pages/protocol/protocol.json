@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "",
+    "usingComponents": {
+        "uv-parse": "../../node-modules/@climblee/uv-ui/components/uv-parse/uv-parse"
+    }
+}

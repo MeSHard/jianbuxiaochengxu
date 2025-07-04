@@ -1,0 +1,1 @@
+<canvas canvasId="{{d}}" class="tui-poster__cv data-v-0bd45d91" id="{{e}}" style="{{'width:'+b+';'+'height:'+c}}" wx:if="{{a}}"></canvas>

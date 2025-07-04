@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "信息填写",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "usingComponents": {
+        "uv-icon": "../../node-modules/@climblee/uv-ui/components/uv-icon/uv-icon",
+        "uv-popup": "../../node-modules/@climblee/uv-ui/components/uv-popup/uv-popup"
+    }
+}

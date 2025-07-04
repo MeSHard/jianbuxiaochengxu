@@ -1,0 +1,5 @@
+<view class="tui-circular-container" style="{{'width:'+k+';'+'height:'+l}}">
+    <canvas canvasId="{{b}}" class="tui-circular-default" id="{{c}}" style="{{'width:'+d+';'+'height:'+e}}" wx:if="{{a}}"></canvas>
+    <canvas canvasId="{{g}}" class="tui-circular-progress" id="{{h}}" style="{{'width:'+i+';'+'height:'+j}}" wx:if="{{f}}"></canvas>
+    <slot></slot>
+</view>

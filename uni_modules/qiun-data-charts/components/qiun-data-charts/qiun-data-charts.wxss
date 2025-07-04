@@ -1,0 +1,8 @@
+.chartsview.data-v-0ca34aee {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}

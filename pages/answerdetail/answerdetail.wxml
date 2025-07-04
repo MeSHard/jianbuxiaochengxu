@@ -1,0 +1,16 @@
+<view class="content data-v-706ee57e">
+    <image class="bg data-v-706ee57e" mode="" src="{{a}}"></image>
+    <view class="box data-v-706ee57e">
+        <view class="title data-v-706ee57e">
+            <image class="titlebg data-v-706ee57e" mode="" src="{{b}}"></image>
+            <view class="titletext data-v-706ee57e">学习健康知识</view>
+        </view>
+        <scroll-view class="parse data-v-706ee57e" scrollY="true">
+            <uv-parse bind:__l="__l" class="data-v-706ee57e" uI="706ee57e-0" uP="{{c}}" wx:if="{{c}}"></uv-parse>
+        </scroll-view>
+    </view>
+    <view class="data-v-706ee57e" style="height:127rpx"></view>
+    <view class="fixed data-v-706ee57e">
+        <button bindtap="{{d}}" class="uv-reset-button btn data-v-706ee57e">开始答题</button>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "tui-circular-progress": "../../components/tui-circular-progress/tui-circular-progress",
+        "calendar": "../../components/calendar/calendar"
+    }
+}

@@ -1,0 +1,133 @@
+.content .img-fill.data-v-33268ad9 {
+    height: 100%;
+    width: 100%;
+}
+
+.content .img.data-v-33268ad9 {
+    height: 353rpx;
+    width: 100%;
+}
+
+.content .list.data-v-33268ad9 {
+    background-color: #fff;
+    border-radius: 20rpx;
+    height: calc(100vh - 353rpx);
+    margin-top: -40rpx;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.content .list .title.data-v-33268ad9 {
+    height: 61rpx;
+    margin: 20rpx auto;
+    width: 430rpx;
+}
+
+.content .list .title1.data-v-33268ad9 {
+  font-size: 40rpx;
+  font-weight: bold;
+  text-align: center;
+  margin: 30rpx auto;
+  color: #3a875e;
+}
+
+.content .list .scroll.data-v-33268ad9 {
+    height: 800rpx;
+    width: 100%;
+}
+
+.content .list .scroll .scroll-box .list-item.data-v-33268ad9 {
+    align-items: center;
+    border: 2rpx solid #d0d0d0;
+    border-radius: 15rpx;
+    box-shadow: 0rpx 0rpx 2rpx 2rpx #d0d0d0;
+    display: flex;
+    margin: 20rpx auto;
+    min-height: 214rpx;
+    width: 643rpx;
+}
+
+.content .list .scroll .scroll-box .list-item .img.data-v-33268ad9 {
+    border-radius: 15rpx;
+    flex-shrink: 0;
+    height: 175rpx;
+    margin: 20rpx;
+    overflow: hidden;
+    width: 175rpx;
+}
+
+.content .list .scroll .scroll-box .list-item .cont.data-v-33268ad9 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 175rpx;
+    padding: 30rpx 20rpx 30rpx 0;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .name.data-v-33268ad9 {
+    color: #000;
+    font-size: 29rpx;
+    font-weight: 700;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .desc.data-v-33268ad9 {
+    color: #6c6c6c;
+    flex: 1;
+    font-size: 17rpx;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .bot.data-v-33268ad9 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .bot .date.data-v-33268ad9 {
+    color: #000;
+    font-size: 22rpx;
+    font-weight: 800;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .bot .detail.data-v-33268ad9 {
+    align-items: center;
+    color: #3a875e;
+    display: flex;
+    font-size: 27rpx;
+    font-weight: 700;
+}
+
+.content .list .scroll .scroll-box .list-item .cont .bot .detail .arrow.data-v-33268ad9 {
+    height: 21rpx;
+    line-height: 0;
+    width: 24rpx;
+}
+
+
+
+.content  .title.data-v-d554a45d {
+  height: 35rpx;
+  margin: 38rpx auto;
+  position: relative;
+  width: 353rpx;
+}
+
+.content  .title .titlebg.data-v-d554a45d {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.content  .title .titletext.data-v-d554a45d {
+  color: #3c3d3f;
+  font-size: 35rpx;
+  font-weight: 700;
+  line-height: 35rpx;
+  position: relative;
+  text-align: center;
+}

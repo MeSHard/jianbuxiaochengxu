@@ -1,0 +1,8 @@
+<view class="uv-empty data-v-cd879d2e" style="{{i}}" wx:if="{{a}}">
+    <uv-icon bind:__l="__l" class="data-v-cd879d2e" uI="cd879d2e-0" uP="{{c}}" wx:if="{{b}}"></uv-icon>
+    <image class="data-v-cd879d2e" mode="widthFix" src="{{f}}" style="{{'width:'+d+';'+'height:'+e}}" wx:else></image>
+    <text class="uv-empty__text data-v-cd879d2e" style="{{h}}">{{g}}</text>
+    <view class="uv-empty__wrap data-v-cd879d2e">
+        <slot></slot>
+    </view>
+</view>

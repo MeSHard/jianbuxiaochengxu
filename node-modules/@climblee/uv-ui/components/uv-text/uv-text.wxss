@@ -1,0 +1,122 @@
+.uv-line-1.data-v-bf46ccf4 {
+    -webkit-line-clamp: 1;
+}
+
+.uv-line-1.data-v-bf46ccf4,.uv-line-2.data-v-bf46ccf4 {
+    -webkit-box-orient: vertical!important;
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.uv-line-2.data-v-bf46ccf4 {
+    -webkit-line-clamp: 2;
+}
+
+.uv-line-3.data-v-bf46ccf4 {
+    -webkit-line-clamp: 3;
+}
+
+.uv-line-3.data-v-bf46ccf4,.uv-line-4.data-v-bf46ccf4 {
+    -webkit-box-orient: vertical!important;
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.uv-line-4.data-v-bf46ccf4 {
+    -webkit-line-clamp: 4;
+}
+
+.uv-line-5.data-v-bf46ccf4 {
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical!important;
+    display: -webkit-box!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.uv-reset-button.data-v-bf46ccf4 {
+    background-color: initial;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+}
+
+.uv-reset-button.data-v-bf46ccf4::after {
+    border: none;
+}
+
+scroll-view.data-v-bf46ccf4,swiper-item.data-v-bf46ccf4,view.data-v-bf46ccf4 {
+    align-content: flex-start;
+    align-items: stretch;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.uv-text.data-v-bf46ccf4 {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.uv-text__price.data-v-bf46ccf4 {
+    color: #606266;
+    font-size: 14px;
+}
+
+.uv-text__value.data-v-bf46ccf4 {
+    align-items: center;
+    color: #606266;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+
+.uv-text__value--primary.data-v-bf46ccf4 {
+    color: #3c9cff;
+}
+
+.uv-text__value--warning.data-v-bf46ccf4 {
+    color: #f9ae3d;
+}
+
+.uv-text__value--success.data-v-bf46ccf4 {
+    color: #5ac725;
+}
+
+.uv-text__value--info.data-v-bf46ccf4 {
+    color: #909399;
+}
+
+.uv-text__value--error.data-v-bf46ccf4 {
+    color: #f56c6c;
+}
+
+.uv-text__value--main.data-v-bf46ccf4 {
+    color: #303133;
+}
+
+.uv-text__value--content.data-v-bf46ccf4 {
+    color: #606266;
+}
+
+.uv-text__value--tips.data-v-bf46ccf4 {
+    color: #909193;
+}
+
+.uv-text__value--light.data-v-bf46ccf4 {
+    color: #c0c4cc;
+}

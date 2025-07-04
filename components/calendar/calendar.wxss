@@ -1,0 +1,134 @@
+.popup .calendar.data-v-3a94fe31 {
+    height: 880rpx;
+    overflow: hidden;
+    position: relative;
+    width: 706rpx;
+}
+
+.popup .calendar .bg.data-v-3a94fe31 {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.popup .calendar .box.data-v-3a94fe31 {
+    background: #fff;
+    border-radius: 22rpx;
+    box-shadow: 0rpx 0rpx 31rpx 1rpx hsla(0,0%,51%,.1);
+    height: 532rpx;
+    margin: 193rpx auto 0;
+    position: relative;
+    width: 529rpx;
+}
+
+.popup .calendar .box .top.data-v-3a94fe31 {
+    align-items: center;
+    background-color: #d71c0b50;
+    border-radius: 22rpx 22rpx 0 0;
+    display: flex;
+    height: 62rpx;
+    justify-content: center;
+}
+
+.popup .calendar .box .top .year.data-v-3a94fe31 {
+    height: 27rpx;
+    width: 28rpx;
+}
+
+.popup .calendar .box .top .month.data-v-3a94fe31 {
+    height: 27rpx;
+    margin: 0 45rpx;
+    width: 14rpx;
+}
+
+.popup .calendar .box .top .yearmonth.data-v-3a94fe31 {
+    color: #fff;
+    font-size: 24rpx;
+    font-weight: 500;
+    line-height: 24rpx;
+}
+
+.popup .calendar .box .week.data-v-3a94fe31 {
+    align-items: center;
+    display: flex;
+    height: 58rpx;
+    width: 100%;
+}
+
+.popup .calendar .box .week .item.data-v-3a94fe31 {
+    color: #bebebe;
+    font-size: 20rpx;
+    font-weight: 500;
+    line-height: 20rpx;
+    text-align: center;
+    width: 14.2857142857%;
+}
+
+.popup .calendar .box .line.data-v-3a94fe31 {
+    background: #efefef;
+    height: 2rpx;
+    margin: 0 auto;
+    width: 473rpx;
+}
+
+.popup .calendar .box .row.data-v-3a94fe31 {
+    align-items: center;
+    display: flex;
+    height: 80rpx;
+    width: 100%;
+}
+
+.popup .calendar .box .row .item.data-v-3a94fe31 {
+    height: 100%;
+    position: relative;
+    width: 14.2857142857%;
+}
+
+.popup .calendar .box .row .item .day.data-v-3a94fe31 {
+    color: #000;
+    font-size: 20rpx;
+    font-weight: 500;
+    line-height: 50rpx;
+    text-align: center;
+}
+
+.popup .calendar .box .row .item .poa.data-v-3a94fe31 {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.popup .calendar .box .row .item .poa .success.data-v-3a94fe31 {
+    height: 25rpx;
+    width: 29rpx;
+}
+
+.popup .calendar .box .row .item .poa .step.data-v-3a94fe31 {
+    color: #d71c0b;
+    font-size: 16rpx;
+    font-weight: 500;
+    line-height: 16rpx;
+    margin-top: 13rpx;
+}
+
+.popup .calendar .desc.data-v-3a94fe31 {
+    color: #b0b0b0;
+    font-size: 22rpx;
+    font-weight: 500;
+    line-height: 22rpx;
+    margin-top: 30rpx;
+    position: relative;
+    text-align: center;
+}
+
+.popup .close.data-v-3a94fe31 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20rpx;
+}

@@ -1,0 +1,107 @@
+.content.data-v-e4e4508d {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+}
+
+.content .bg.data-v-e4e4508d {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content .img.data-v-e4e4508d {
+    display: block;
+    height: 56rpx;
+    margin: 623rpx 0 19rpx 80rpx;
+    position: relative;
+    width: 136rpx;
+}
+
+.content .title.data-v-e4e4508d {
+    color: #000;
+    font-size: 50rpx;
+    font-weight: 700;
+    line-height: 50rpx;
+    margin-left: 77rpx;
+    position: relative;
+}
+
+.content .mintext.data-v-e4e4508d {
+    border-bottom: 2rpx solid #e5e5e5;
+    border-top: 2rpx solid #e5e5e5;
+    color: #000;
+    font-size: 17rpx;
+    font-weight: 700;
+    line-height: 35rpx;
+    margin: 20rpx 0 60rpx 80rpx;
+    position: relative;
+}
+
+.content .btn.data-v-e4e4508d {
+    align-items: center;
+    background: linear-gradient(90deg,#c2e7c6,#0bb88b);
+    border-radius: 47rpx;
+    display: flex;
+    height: 94rpx;
+    justify-content: center;
+    margin-bottom: 67rpx;
+    width: 587rpx;
+}
+
+.content .btn .weixin.data-v-e4e4508d {
+    height: 38rpx;
+    width: 46rpx;
+}
+
+.content .btn .text.data-v-e4e4508d {
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 700;
+    margin-left: 15rpx;
+}
+
+.content .checkbox.data-v-e4e4508d {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.content .checkbox .checked.data-v-e4e4508d {
+    border: 2rpx solid #a1a1a1;
+    border-radius: 13rpx;
+    box-sizing: border-box;
+    height: 28rpx;
+    margin-top: 2rpx;
+    width: 28rpx;
+}
+
+.content .checkbox .checked .checkimg.data-v-e4e4508d {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.content .checkbox .active.data-v-e4e4508d {
+    border: none;
+}
+
+.content .checkbox .active .checkimg.data-v-e4e4508d {
+    display: block;
+}
+
+.content .checkbox .check.data-v-e4e4508d {
+    color: #282828;
+    font-size: 22rpx;
+    font-weight: 500;
+    line-height: 32rpx;
+    margin-left: 8rpx;
+    width: 530rpx;
+}
+
+.content .checkbox .check .protocol.data-v-e4e4508d {
+    color: #26bf94;
+}

@@ -1,0 +1,34 @@
+<view class="content data-v-04910d43">
+    <image class="bg data-v-04910d43" mode="" src="{{a}}"></image>
+    <view class="charts data-v-04910d43">
+        <view class="title data-v-04910d43">健康体重管理</view>
+        <qiun-data-charts bind:__l="__l" class="data-v-04910d43" uI="04910d43-0" uP="{{b}}" wx:if="{{b}}"></qiun-data-charts>
+    </view>
+    <view class="from data-v-04910d43">
+        <view class="title data-v-04910d43">体脂率计算</view>
+        <view class="item data-v-04910d43">
+            <text class="text data-v-04910d43">身高</text>
+            <input bindinput="{{d}}" class="input data-v-04910d43" placeholder="请输入身高（cm）" type="number" maxlength="5" value="{{c}}"></input>
+        </view>
+        <view class="item data-v-04910d43">
+            <text class="text data-v-04910d43">体重</text>
+            <input bindinput="{{f}}" class="input data-v-04910d43" placeholder="请输入体重（kg）" type="digit" maxlength="5" value="{{e}}"></input>
+        </view>
+        <view class="item data-v-04910d43">
+            <text class="text data-v-04910d43">腰围</text>
+            <input bindinput="{{bindwaist}}" class="input data-v-04910d43" placeholder="请输入腰围（cm）" type="digit" maxlength="5" value="{{waist}}"></input>
+        </view>
+        <view class="item data-v-04910d43">
+            <text class="text data-v-04910d43">臀围</text>
+            <input bindinput="{{bindhip}}" class="input data-v-04910d43" placeholder="请输入臀围（cm）" type="digit" maxlength="5" value="{{hip}}"></input>
+        </view>
+        <view class="item data-v-04910d43">
+            <text class="text data-v-04910d43">体脂率</text>
+            <input bindinput="{{bindpro}}" class="input data-v-04910d43" placeholder="请输入体脂率（%）" type="digit" maxlength="5" value="{{pro}}"></input>
+        </view>
+
+
+
+        <button bindtap="{{g}}" class="uv-reset-button submit data-v-04910d43">保存记录</button>
+    </view>
+</view>

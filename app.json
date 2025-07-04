@@ -1,0 +1,27 @@
+{
+    "pages": [
+  
+        "pages/index/index",
+        "pages/my/my",
+        "pages/login/login",
+        "pages/information/information",
+        "pages/rank/rank",
+        "pages/achievement/achievement",
+        "pages/article/article",
+        "pages/answer/answer",
+        "pages/answerpage/answerpage",
+        "pages/answersuccess/answersuccess",
+        "pages/health/health",
+        "pages/articledetail/articledetail",
+        "pages/protocol/protocol",
+        "pages/ranks/ranks",
+        "pages/answerdetail/answerdetail",
+        "pages/articlelist/article"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "健康体重 渝你同行",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#fff"
+    }
+}
